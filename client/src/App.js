@@ -14,7 +14,7 @@ function App() {
       <div className=" pb-4">
         <h2 className="font-semibold">League Memory Game</h2>
         <p>Websocket based card memory game where you can add friends and play 1 vs 1 against them.</p>
-        <p>Link to live website: <a className="text-blue-500 hover:text-purple-500 transition-colors hover:underline" href="https://github.com/SuphaNinja/LOL_MEMORY_GAME">https://lol-memory-game-ten.vercel.app/</a></p>
+        <p>Link to live website: <a className="text-blue-500 hover:text-purple-500 transition-colors hover:underline" href="https://lol-memory-game-ten.vercel.app/">https://lol-memory-game-ten.vercel.app/</a></p>
         <p>Link to github repository: <a className="text-blue-500 hover:text-purple-500 transition-colors hover:underline" href="https://github.com/SuphaNinja/LOL_MEMORY_GAME">https://github.com/SuphaNinja/LOL_MEMORY_GAME</a></p>
       </div>
       <div className=" pb-4">
