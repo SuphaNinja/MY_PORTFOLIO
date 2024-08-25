@@ -4,6 +4,16 @@ function App() {
   return (
     <div className="flex flex-col ml-12 mt-12 gap-6">
       <h1 className="text-2xl font-semibold">My Portfolio</h1>
+      <h2 className="text-2xl font-semibold">Projects in production for customers (Paid)</h2>
+      <div className=" pb-4">
+        <h2 className="font-semibold">JHC Bygg & Plåt AB</h2>
+        <p>A clean, simple site featuring essential information, email support, and an easy-to-use price request form for roofing services.</p>
+        <p>Link to live website: <a className="text-blue-500 hover:text-purple-500 transition-colors hover:underline" href="https://www.jhc-platbyggab.com/">https://www.jhc-platbyggab.com/</a></p>
+        <p>Link to github repository (client): <a className="text-blue-500 hover:text-purple-500 transition-colors hover:underline" href="https://github.com/SuphaNinja/JHC-Client/tree/main/client">https://github.com/SuphaNinja/JHC-Client/tree/main/client</a></p>
+        <p>Link to github repository (server): <a className="text-blue-500 hover:text-purple-500 transition-colors hover:underline" href="https://github.com/SuphaNinja/JHC-Client/tree/main/server">https://github.com/SuphaNinja/JHC-Client/tree/main/server</a></p>
+      </div>
+      <hr/>
+      <h2 className="text-2xl font-semibold">Personal Projects</h2>
       <div className=" pb-4">
         <h2 className="font-semibold">AI News</h2>
         <p>Simple news site where administrators can upload articles, where users can read, like and comment.</p>
