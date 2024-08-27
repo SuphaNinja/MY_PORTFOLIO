@@ -17,8 +17,7 @@ function App() {
   const imagesArray5 = ["https://i.gyazo.com/0d2ee6fe15d62f84055f4f2acc715fb0.png", "https://i.gyazo.com/23c09a5718c82748603c152eeedef002.png", "https://i.gyazo.com/e64dceb451edcda7210f66e6b852ff72.png", "https://i.gyazo.com/441356e7f275d3761101df99c30966d9.png"];
 
   return (
-    <div className="flex flex-col items-center mt-12 gap-4 sm:gap-16">
-      
+    <div className="flex flex-col items-end mt-12 sm:mr-44 gap-4 sm:gap-16">
       <div className="flex flex-col max-w-md sm:fixed left-8 top-12 gap-6">
         <div className="relative w-full sm:w-80 sm:h-64 overflow-hidden rounded-full">
           <img
@@ -38,12 +37,8 @@ function App() {
           <br/>
           <p className="font-semibold">Contact Me <br/> Phone: 070-061 49 67 | Email: sidricobjork@gmail.com</p>
         </div>
-        
       </div>
-
-      
-      <h2 className="text-3xl font-semibold">My Portfolio</h2>
-      <h2 className="text-2xl font-semibold mt-8">Paid Projects For Customers</h2>
+      <h2 className="text-2xl font-semibold mt-8 mx-auto">Paid Projects For Customers</h2>
       <Card className="shadow-lg rounded-lg border-t-0 flex flex-col h-full w-full md:w-2/3 lg:w-1/2">
         <CardContent className="flex-1 p-0">
           <div className="mx-auto">
@@ -91,7 +86,7 @@ function App() {
       </Card>
 
       {/* Personal Projects Section */}
-      <h2 className="text-2xl font-semibold mt-8">Personal Projects</h2>
+      <h2 className="text-2xl font-semibold mt-8 mx-auto">Personal Projects</h2>
 
       {/* AI News Project */}
       <Card className="shadow-lg rounded-lg border-t-0 flex flex-col h-full w-full md:w-2/3 lg:w-1/2">
