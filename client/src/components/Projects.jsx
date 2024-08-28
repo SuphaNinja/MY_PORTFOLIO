@@ -39,29 +39,29 @@ const Projects = () => {
                     <div className="flex justify-evenly mb-4">
                         <a 
                             href={project.link} 
-                            className="bg-purple-800 hover:cursor-pointer text-purple-200 hover:bg-purple-700 hover:text-white font-semibold py-2 px-4 rounded-lg transition duration-200 ease-in-out hover:underline"
+                            className="bg-purple-800 text-xs sm:text-base text-center hover:cursor-pointer text-purple-200 hover:bg-purple-700 hover:text-white font-semibold py-2 px-4 rounded-lg transition duration-200 ease-in-out hover:underline"
                         >
                             Live Website
                         </a>
                         {project.githubS ? (
-                            <div className="flex gap-4">
+                            <>
                                 <a 
                                     href={project.githubC} 
-                                    className="bg-purple-800 hover:cursor-pointer text-purple-200 hover:bg-purple-700 hover:text-white font-semibold py-2 px-4 rounded-lg transition duration-200 ease-in-out hover:underline"
+                                    className="bg-purple-800 text-xs sm:text-base text-center hover:cursor-pointer text-purple-200 hover:bg-purple-700 hover:text-white font-semibold py-2 px-4 rounded-lg transition duration-200 ease-in-out hover:underline"
                                 >
                                     Github (client)
                                 </a>
                                 <a 
                                     href={project.githubS} 
-                                    className="bg-purple-800 hover:cursor-pointer text-purple-200 hover:bg-purple-700 hover:text-white font-semibold py-2 px-4 rounded-lg transition duration-200 ease-in-out hover:underline"
+                                    className="bg-purple-800 text-xs sm:text-base text-center hover:cursor-pointer text-purple-200 hover:bg-purple-700 hover:text-white font-semibold py-2 px-4 rounded-lg transition duration-200 ease-in-out hover:underline"
                                 >
                                     Github (server)
                                 </a>
-                            </div>
+                            </>
                         ) : (
                             <a 
                                 href={project.githubC} 
-                                className="bg-purple-800 hover:cursor-pointer text-purple-200 hover:bg-purple-700 hover:text-white font-semibold py-2 px-4 rounded-lg transition duration-200 ease-in-out hover:underline"
+                                className="bg-purple-800 text-xs sm:text-base text-center hover:cursor-pointer text-purple-200 hover:bg-purple-700 hover:text-white font-semibold py-2 px-4 rounded-lg transition duration-200 ease-in-out hover:underline"
                             >
                                 Github Code
                             </a>
