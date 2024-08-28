@@ -17,7 +17,7 @@ function App() {
   const imagesArray5 = ["https://i.gyazo.com/0d2ee6fe15d62f84055f4f2acc715fb0.png", "https://i.gyazo.com/23c09a5718c82748603c152eeedef002.png", "https://i.gyazo.com/e64dceb451edcda7210f66e6b852ff72.png", "https://i.gyazo.com/441356e7f275d3761101df99c30966d9.png"];
 
   return (
-    <div className="flex flex-col items-end mt-12 sm:mr-44 gap-4 sm:gap-16">
+    <div className="flex flex-col items-end mt-12 mx-4 sm:mr-44 gap-4 sm:gap-16">
       <div className="flex flex-col max-w-md sm:fixed left-8 top-12 gap-6">
         <div className="relative w-full sm:w-80 sm:h-64 overflow-hidden rounded-full">
           <img
