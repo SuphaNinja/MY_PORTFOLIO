@@ -1,7 +1,4 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+
 
 export const HERO_CONTENT = `Hi, I'm Sid, a 21-year-old software developer from Stockholm, Sweden. I'm passionate about coding and have been dedicated to it daily since late last year.
 
@@ -55,6 +52,16 @@ export const PROJECTS = [
     description:
       "JHC Plåt & Bygg AB is a straightforward website designed to provide essential information about roofing services. It features a clean and simple layout with easy access to email support and a user-friendly price request form. Customers can also reach out for service inquiries through a dedicated customer service form. The site includes automated email confirmations and a fully functioning support system to streamline communication.",
     technologies: ["React", "Express", "Tanstack", "Axios", "TailwindCSS", "Typescript", "ShadCN", "i18next"],
+  },
+  {
+    title: "Portfolio Website",
+    link: "https://my-portfolio-mu-gilt.vercel.app/",
+    githubC: "https://github.com/SuphaNinja/MY_PORTFOLIO",
+    info: "My latest website where i've ecountered the world of animations!",
+    image: "https://i.gyazo.com/b3c487f90653167b757d6007698cfa2d.jpg",
+    description:
+      "Explore my portfolio website, where I've mastered creating smooth, engaging experiences with Framer Motion. Discover how animation can bring web design to life!",
+    technologies: ["Vite", "React", "TailwindCSS", "Typescript", "ShadCN", "ZOD", "Framer-Motion"],
   },
   {
     title: "AI News",
