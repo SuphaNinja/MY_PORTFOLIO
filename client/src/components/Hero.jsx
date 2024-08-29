@@ -1,6 +1,7 @@
 import {HERO_CONTENT} from "../constants";
 import ProfileImage from "../assets/ProfileImage.png";
 import { motion } from "framer-motion";
+import Position from "./CoolText";
 
 
 const container = (delay) => ({
@@ -22,18 +23,19 @@ const Hero = () => {
                         variants={container(0)}
                         initial="hidden"
                         animate="visible"
-                        className='pb-16 text-6xl sm:text-4xl font-thin tracking-tight lg:mt-16 lg:text-6xl'
+                        className='pb-8 text-6xl sm:text-4xl font-thin tracking-tight lg:mt-16 lg:text-6xl'
                     >
                         Sid Rico Björk
                     </motion.h1>
-                    <motion.span 
+                    <motion.div 
                         variants={container(0.5)}
                         initial="hidden"
                         animate="visible"
-                        className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent'
+                        className='flex md:ml-[28%]'
                         >
-                        Full Stack Developer
-                    </motion.span>
+                       <Position/>
+                    </motion.div>
+                    <div className="py-6"></div>
                     <motion.p 
                         variants={container(1)}
                         initial="hidden"
