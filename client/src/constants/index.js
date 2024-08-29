@@ -108,7 +108,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Störloppsvägen 20, 129 47 hägersten",
+  address: "Störtloppsvägen 20, 129 47 Hägersten",
   phoneNo: "+46 70 061 49 67",
   email: "sidricobjork@gmail.com",
 };
