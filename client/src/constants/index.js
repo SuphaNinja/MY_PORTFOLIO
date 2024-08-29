@@ -8,46 +8,24 @@ When I'm not coding, you'll find me at the gym, traveling, or staying on top of 
 
 Fluent in English, Spanish, and Swedish, I thrive in diverse environments and am eager to tackle new challenges.`;
 
-export const ABOUT_TEXT = `A 21-year-old software developer based in Stockholm, Sweden, I’ve immersed myself in coding daily since late last year. My technical toolkit includes Next.js, Tanstack, Axios, TailwindCSS, TypeScript, ShadCN, SQLite, Prisma, Socket.io, AuthJS, and bcrypt, with a growing focus on cloud platforms like Azure and AWS. I’m fluent in English, Spanish, and Swedish, which helps me adapt to diverse environments and collaborate effectively. Always eager to take on new challenges, I balance my time between coding, staying active at the gym, exploring new places, and keeping up with the latest tech innovations.`;
-
-export const EXPERIENCES = [
-  {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
-];
+export const ABOUT_TEXT = `A 21-year-old software developer based in Stockholm, Sweden, I've immersed myself in coding daily since late last year. My technical toolkit includes Next.js, Tanstack, Axios, TailwindCSS, TypeScript, ShadCN, SQLite, Prisma, Socket.io, AuthJS, and bcrypt, with a growing focus on cloud platforms like Azure and AWS. I'm fluent in English, Spanish, and Swedish, which helps me adapt to diverse environments and collaborate effectively. Always eager to take on new challenges, I balance my time between coding, staying active at the gym, exploring new places, and keeping up with the latest tech innovations.`;
 
 export const PROJECTS = [
   {
+    title: "Allcode Community Project (In Development)",
+    link: "https://allcode-community-project.vercel.app/",
+    githubC: "https://github.com/SuphaNinja/ECOMMERCE_APP",
+    info: "Demo Account Mail: demo123@gmail.com | Password: Demo123",
+    image: "https://i.gyazo.com/902ec7de016c3161f6be866bdf05a715.png",
+    description:
+      "Allcode Community Project is a collaborative platform I initiated to bring developers together in a creative coding environment. Built with Vite and React, the project allows contributors to develop and share their own pages, applications, and features—from games to live chat rooms. The platform emphasizes smooth user experiences with custom animations and responsive design, utilizing tools like Framer Motion. As the lead developer, I manage all pull requests, ensuring that code quality and design consistency are maintained across the platform.By leveraging reusable components, we maintain a cohesive design throughout.This project not only showcases my technical skills in front- end development but also my leadership in managing a collaborative, community - driven project.",
+    technologies: ["Vite", "React", "Axios", "TailwindCSS", "Typescript", "ShadCN", "SQLite", "Prisma", "bcrypt", "ZOD", "Alot more to come!"],
+  },
+  {
     title: "JHC Plåt & Bygg AB",
     link: "https://www.jhc-platbyggab.com/",
-    githubC: "https://github.com/SuphaNinja/JHC-Client/tree/main/client",
-    githubS: "https://github.com/SuphaNinja/JHC-Client/tree/main/server",
-    info: "Feel free to try it out but please write 'TEST' in the description since the website is in production.",
+    githubC: "https://github.com/SuphaNinja/allcode-community-project",
+    info: "A Vite/React platform I initiated where developers can collaborate on unique pages and applications. I manage all pull requests, ensuring quality and design consistency across the site.",
     image: "https://i.gyazo.com/3dcc68c35b57726c906210177ca91774.jpg",
     description:
       "JHC Plåt & Bygg AB is a straightforward website designed to provide essential information about roofing services. It features a clean and simple layout with easy access to email support and a user-friendly price request form. Customers can also reach out for service inquiries through a dedicated customer service form. The site includes automated email confirmations and a fully functioning support system to streamline communication.",
