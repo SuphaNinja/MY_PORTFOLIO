@@ -1,6 +1,6 @@
 
 
-export const HERO_CONTENT = `Hi, I'm Sid, a 21-year-old software developer from Stockholm, Sweden. I'm passionate about coding and have been dedicated to it daily since late last year.
+export const HERO_CONTENT = `Hello, I'm Sid, a 21-year-old software developer from Stockholm, Sweden. I'm passionate about coding and have been dedicated to it daily since late last year.
 
 My skills include JavaScript, TypeScript, React, Next.js, SQLite, and Prisma, with a growing knowledge of Azure and AWS.
 
