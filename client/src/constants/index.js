@@ -18,7 +18,7 @@ export const PROJECTS = [
     info: "Demo Account Mail: demo123@gmail.com | Password: Demo123",
     image: "https://i.gyazo.com/902ec7de016c3161f6be866bdf05a715.png",
     description:
-      "Allcode Community Project is a collaborative platform I initiated to bring developers together in a creative coding environment. Built with Vite and React, the project allows contributors to develop and share their own pages, applications, and features—from games to live chat rooms. The platform emphasizes smooth user experiences with custom animations and responsive design, utilizing tools like Framer Motion. As the lead developer, I manage all pull requests, ensuring that code quality and design consistency are maintained across the platform.By leveraging reusable components, we maintain a cohesive design throughout.This project not only showcases my technical skills in front- end development but also my leadership in managing a collaborative, community - driven project.",
+      "The Allcode Community Project is a collaborative web platform I developed, where users can build and contribute pages. I review all submissions to ensure quality and functionality.The project features a responsive design for both mobile and desktop, uses type- safe forms with React Hook Form and Zod, and incorporates custom animations and consistent styling with TailwindCSS and ShadCN components.This project highlights my skills in full - stack development and my ability to create and manage a user - friendly, collaborative coding environment.",
     technologies: ["Vite", "React", "Axios", "TailwindCSS", "Typescript", "ShadCN", "SQLite", "Prisma", "bcrypt", "ZOD", "Alot more to come!"],
   },
   {
