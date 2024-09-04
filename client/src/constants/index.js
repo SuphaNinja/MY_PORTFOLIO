@@ -15,7 +15,7 @@ export const PROJECTS = [
     title: "Allcode Community Project (In Development)",
     link: "https://allcode-community-project.vercel.app/",
     githubC: "https://github.com/SuphaNinja/ECOMMERCE_APP",
-    info: "Demo Account Mail: demo123@gmail.com | Password: Demo123",
+    info: "A Vite/React platform I initiated where developers can collaborate on unique pages and applications. I manage all pull requests, ensuring quality and design consistency across the site.",
     image: "https://i.gyazo.com/902ec7de016c3161f6be866bdf05a715.png",
     description:
       "The Allcode Community Project is a collaborative web platform I developed, where users can build and contribute pages. I review all submissions to ensure quality and functionality.The project features a responsive design for both mobile and desktop, uses type- safe forms with React Hook Form and Zod, and incorporates custom animations and consistent styling with TailwindCSS and ShadCN components.This project highlights my skills in full - stack development and my ability to create and manage a user - friendly, collaborative coding environment.",
@@ -25,7 +25,7 @@ export const PROJECTS = [
     title: "JHC Plåt & Bygg AB",
     link: "https://www.jhc-platbyggab.com/",
     githubC: "https://github.com/SuphaNinja/allcode-community-project",
-    info: "A Vite/React platform I initiated where developers can collaborate on unique pages and applications. I manage all pull requests, ensuring quality and design consistency across the site.",
+    info: "Feel free to try out the booking requests and the customer service, but please make sure to write TEST in the description since the website is being used by the comany",
     image: "https://i.gyazo.com/3dcc68c35b57726c906210177ca91774.jpg",
     description:
       "JHC Plåt & Bygg AB is a straightforward website designed to provide essential information about roofing services. It features a clean and simple layout with easy access to email support and a user-friendly price request form. Customers can also reach out for service inquiries through a dedicated customer service form. The site includes automated email confirmations and a fully functioning support system to streamline communication.",
