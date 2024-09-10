@@ -23,7 +23,7 @@ export const PROJECTS = [
   },
   {
     title: "JHC Plåt & Bygg AB",
-    link: "https://www.jhc-platbyggab.com/",
+    link: "https://jhc-client-git-main-suphaninjas-projects.vercel.app/",
     githubC: "https://github.com/SuphaNinja/allcode-community-project",
     info: "Feel free to try out the booking requests and the customer service, but please make sure to write TEST in the description since the website is being used by the comany",
     image: "https://i.gyazo.com/3dcc68c35b57726c906210177ca91774.jpg",
