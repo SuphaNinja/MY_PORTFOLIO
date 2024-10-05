@@ -1,12 +1,6 @@
 
 
-export const HERO_CONTENT = `Hello, I'm Sid, a 21-year-old software developer from Stockholm, Sweden. I'm passionate about coding and have been dedicated to it daily since late last year.
-
-My skills include JavaScript, TypeScript, React, Next.js, SQLite, and Prisma, with a growing knowledge of Azure and AWS.
-
-When I'm not coding, you'll find me at the gym, traveling, or staying on top of the latest tech.
-
-Fluent in English, Spanish, and Swedish, I thrive in diverse environments and am eager to tackle new challenges.`;
+export const HERO_CONTENT = `I'm Sid, a 21-year-old software developer from Stockholm, Sweden. My tech stack includes JavaScript, TypeScript, React, Next.js, SQLite, and Prisma, with growing expertise in Azure and AWS. I'm passionate about coding, fitness, traveling, and food. Fluent in English, Spanish, and Swedish, I'm ready to take on new challenges.`;
 
 export const ABOUT_TEXT = `A 21-year-old software developer based in Stockholm, Sweden, I've immersed myself in coding daily since late last year. My technical toolkit includes Next.js, Tanstack, Axios, TailwindCSS, TypeScript, ShadCN, SQLite, Prisma, Socket.io, AuthJS, and bcrypt, with a growing focus on cloud platforms like Azure and AWS. I'm fluent in English, Spanish, and Swedish, which helps me adapt to diverse environments and collaborate effectively. Always eager to take on new challenges, I balance my time between coding, staying active at the gym, exploring new places, and keeping up with the latest tech innovations.`;
 

@@ -1,110 +1,73 @@
-import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb"
-import { FaNodeJs } from "react-icons/fa"
-import { SiPrisma } from "react-icons/si";
-import { RiTailwindCssLine } from "react-icons/ri";
-import { AiOutlineOpenAI } from "react-icons/ai";
-import { TbBrandVercel } from "react-icons/tb";
-import { FaAws } from "react-icons/fa";
-import { SiMysql } from "react-icons/si";
+import React from 'react'
+import { RiReactjsLine, RiTailwindCssLine } from "react-icons/ri"
+import { TbBrandNextjs, TbBrandVercel } from "react-icons/tb"
+import { FaNodeJs, FaAws } from "react-icons/fa"
+import { SiPrisma, SiMysql } from "react-icons/si"
+import { AiOutlineOpenAI } from "react-icons/ai"
+import { motion } from "framer-motion"
 
-import { motion } from "framer-motion";
+const technologies = [
+  { Icon: RiReactjsLine, name: "React", color: "text-cyan-400", duration: 1 },
+  { Icon: TbBrandNextjs, name: "Next.js", color: "text-white", duration: 2 },
+  { Icon: FaNodeJs, name: "Node.js", color: "text-green-500", duration: 3 },
+  { Icon: SiPrisma, name: "Prisma", color: "text-white", duration: 4 },
+  { Icon: RiTailwindCssLine, name: "Tailwind", color: "text-cyan-500", duration: 5 },
+  { Icon: AiOutlineOpenAI, name: "OpenAI", color: "text-white", duration: 4 },
+  { Icon: TbBrandVercel, name: "Vercel", color: "text-white", duration: 3 },
+  { Icon: FaAws, name: "AWS", color: "text-yellow-400", duration: 2 },
+  { Icon: SiMysql, name: "MySQL", color: "text-blue-400", duration: 1 },
+]
 
 const iconVariants = (duration) => ({
-    initial: { y: -10 },
-    animate: {
-        y: [ 10, -10 ],
-        transition: {
-            duration: duration,
-            ease: "linear",
-            repeat: Infinity,
-            repeatType: "reverse"
-        }
+  initial: { y: -10 },
+  animate: {
+    y: [10, -10],
+    transition: {
+      duration: duration,
+      ease: "linear",
+      repeat: Infinity,
+      repeatType: "reverse"
     }
+  }
 })
 
 const Technologies = () => {
   return (
-    <div className="border-b border-neutral-800 pb-24">
+    <section id="technologies" className="py-20 lg:py-32">
+      <div className="container mx-auto px-4">
         <motion.h2 
-            whileInView={{ opacity: 1,y: 0}}
-            initial={{ opacity: 0, y: -100}}
-            transition={{ duration: 1.5}}
-            className="my-20 text-center text-4xl"
-            >
-            Technologies
+          className="mb-16 text-center text-4xl font-bold text-cyan-500 sm:text-5xl"
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+        >
+          Technologies
         </motion.h2>
         <motion.div
-            whileInView={{ opacity: 1, x: 0}}
-            initial={{ opacity: 0, x: -100}}
-            transition={{ duration: 1.5}}
-            className="flex flex-wrap items-center justify-center gap-4">
-            <motion.div 
-                variants={iconVariants(1)}
-                initial="initial"
-                animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4"
-                >
-                <RiReactjsLine className="text-7xl text-cyan-400"/>
+          className="flex flex-wrap items-center justify-center gap-8"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
+          {technologies.map(({ Icon, name, color, duration }, index) => (
+            <motion.div
+              key={index}
+              className="flex flex-col items-center"
+              variants={iconVariants(duration)}
+              initial="initial"
+              animate="animate"
+            >
+              <div className="rounded-2xl border-4 border-neutral-800 p-4 transition-colors duration-300 hover:border-cyan-500">
+                <Icon className={`text-6xl ${color}`} />
+              </div>
+              <span className="mt-2 text-sm font-medium text-neutral-400">{name}</span>
             </motion.div>
-            <motion.div 
-                variants={iconVariants(2)}
-                initial="initial"
-                animate="animate" 
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                <TbBrandNextjs className="text-7xl"/>
-            </motion.div>
-            <motion.div 
-                variants={iconVariants(3)}
-                initial="initial"
-                animate="animate" 
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaNodeJs className="text-7xl text-green-500"/>
-            </motion.div>
-            <motion.div 
-                variants={iconVariants(4)}
-                initial="initial"
-                animate="animate" 
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiPrisma className="text-7xl "/>
-            </motion.div>
-            <motion.div 
-                variants={iconVariants(5)}
-                initial="initial"
-                animate="animate" 
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                <RiTailwindCssLine className="text-7xl text-cyan-500"/>
-            </motion.div>
-            <motion.div 
-                variants={iconVariants(4)}
-                initial="initial"
-                animate="animate" 
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                <AiOutlineOpenAI className="text-7xl "/>
-            </motion.div>
-            <motion.div 
-                variants={iconVariants(3)}
-                initial="initial"
-                animate="animate"
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                <TbBrandVercel className="text-7xl "/>
-            </motion.div>
-            <motion.div 
-                variants={iconVariants(2)}
-                initial="initial"
-                animate="animate" 
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaAws className="text-7xl text-yellow-400"/>
-            </motion.div>
-            <motion.div 
-                variants={iconVariants(1)}
-                initial="initial"
-                animate="animate" 
-                className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiMysql className="text-7xl text-blue-400"/>
-            </motion.div>
+          ))}
         </motion.div>
-    </div>
+      </div>
+    </section>
   )
 }
 
