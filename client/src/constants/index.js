@@ -7,7 +7,7 @@ export const ABOUT_TEXT = `A 21-year-old software developer based in Stockholm, 
 export const PROJECTS = [
   {
     title: "Allcode Community Project (In Development)",
-    link: "https://allcode-community-project.vercel.app/",
+    link: "https://www.allcodecommunity.com/",
     githubC: "https://github.com/SuphaNinja/ECOMMERCE_APP",
     info: "A Vite/React platform I initiated where developers can collaborate on unique pages and applications. I manage all pull requests, ensuring quality and design consistency across the site.",
     image: "https://i.gyazo.com/902ec7de016c3161f6be866bdf05a715.png",
